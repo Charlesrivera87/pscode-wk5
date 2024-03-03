@@ -1,0 +1,79 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 numbers together 
+print on the screen the sum of those 2 numbers
+
+
+-----------------------------------------------------------
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+
+
+
+Random number = new Random();
+int n = number.Next();
+if  (n % 2 == 0)
+Console.WriteLine($" {n} is an even number");
+else if (n % 2 >= 1)
+Console.WriteLine ($" {n} is an odd number.");
+
+
+
+
+--------------------------------------------------------------
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+
+
+// Read in 5 Separate numbers
+
+int[] numbers = {55, 53, 32, 86, 41};
+
+// Calculate the average by finding the sum and dividing by 5.
+
+int sum = numbers.Sum();
+decimal average = sum / 5;
+
+// Find the smallest and largest of the numbers
+numbers.Min();
+numbers.Max();
+
+
+//Print the output
+
+Console.WriteLine($"The total of the numbers is {sum}.");
+Console.WriteLine($"The average of the numbers is {average}."); 
+Console.WriteLine($"The highest number is {numbers.Max()}."); 
+Console.WriteLine($"The lowest number is {numbers.Min()}.");
+
+
+// dotnet run
+
+The total of the numbers is 267.
+The average of the numbers is 53.
+The highest number is 86.
+The lowest number is 32.
+
+
+------------------------------------------------------------------------
+
+
+
+
+
+-- END --
